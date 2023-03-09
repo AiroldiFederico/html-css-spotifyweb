@@ -16,7 +16,7 @@
 
 
 /* TABLET *//*-----------------------------------------------*/
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     
 
 
@@ -26,7 +26,54 @@
 
 
 /* MOBILE  GRANDE*//*-----------------------------------------------*/
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 425px) {
+
+
+    /* SIDE NAVBAR */
+
+        #side-navbar .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+        }
+
+    
+        #snav-top div:first-child #logo-small {
+            display: block;
+            width: 2.5rem;
+            margin-right: 0px;
+        }
+
+        #snav-top div:first-child img,
+        #side-navbar ul li a span,
+        #playlist-snb,
+        hr,
+        #snav-bottom span {display: none;}
+
+
+        #snav-top div:first-child #logo-small,
+        #l1-snb img,
+        #snav-bottom div:first-child img,
+        #snav-bottom div:last-child img {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        #side-navbar {
+            width: 60px;
+        }
+        
+        #core {
+            width: calc(100% - 60px);
+        }
+
+    /* SIDE NAVBAR */
+
+
+
+
 
 
 
@@ -34,14 +81,14 @@
 
 
 /* MOBILE  MEDIO*//*-----------------------------------------------*/
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
 
 
 
 }
 
 /* MOBILE  PICCOLO*//*-----------------------------------------------*/
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
 
 
 
