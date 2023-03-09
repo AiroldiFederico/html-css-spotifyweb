@@ -143,6 +143,7 @@ i {
     color: rgb(255, 255, 255);
 }
 
+/* SIDE NAVBAR *//* TOP */
 #snav-top div:first-child img {
     width: 9rem;
     margin-bottom: 1rem;
@@ -188,14 +189,7 @@ i {
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
+/* SIDE NAVBAR *//* BOTTOM */
 
 #snav-bottom hr {
     border-color: rgb(116,118,124);
@@ -209,7 +203,25 @@ i {
     margin-top: 1rem;
 }
 
-#snav-bottom img {
+#snav-bottom div:first-child {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    opacity: 0.3;
+}
+
+#snav-bottom div:first-child:hover {
+    opacity: 1;
+}
+
+#snav-bottom div:first-child img {
+    object-fit: cover;
+    width: 20px;
+    aspect-ratio: 1;
+    margin-right: 0.5rem;
+}
+
+#snav-bottom div:last-child img {
     border-radius: 50%;
     object-fit: cover;
     width: 30px;
