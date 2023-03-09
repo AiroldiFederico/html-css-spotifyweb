@@ -96,6 +96,7 @@ h3 {
 /* -------------------------------- *//*-----------------------------------------------*/
 /* BODY *//*-----------------------------------------------*/
 
+/* DEFINIZIONE BLOCCHI LAYOUT DESKTOPVIEW */
 
 body {
     height: 100vh;
@@ -131,7 +132,18 @@ body {
     background-color: rgb(20,25,34);
 }
 
+/* EXTRA UTILITIES */
 
+
+
+/* SIDE NAVBAR *//*-----------------------------------------------*/
+
+#side-navbar .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: dimgray;
+}
 
 
 
