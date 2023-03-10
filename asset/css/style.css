@@ -356,8 +356,31 @@ i {
     /* left bottom bar style */
 
 
+    /* right bottom bar style */
 
 
+        #rgt-br {
+            display: flex;
+            align-items: center;
+            margin-right: 10rem;
+            height: 100%;
+            width: auto;
+        }
+
+        #rgt-br i{
+            color: rgb(128,128,128);
+            margin: 0 0.5rem;
+        }
+
+
+
+
+
+
+
+
+    /* right bottom bar style */
+/* BOTTOM BAR */
 
 
 
