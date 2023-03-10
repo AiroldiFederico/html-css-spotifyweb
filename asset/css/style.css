@@ -142,6 +142,7 @@ i {
     margin-right: 0.5rem;
 }
 
+i:hover {color: white !important;}
 
 
 
@@ -283,7 +284,6 @@ i {
 
     /* size position layout */
         #bottom-bar .container {
-            border: dotted blue;
             width: 100%;
             height: 100%;
             padding: 0.5rem;
@@ -297,9 +297,7 @@ i {
             height: 100%;
         }
         #center-br {
-            width: 64px;
             height: 100%;
-            border: dotted rgb(203, 89, 108);
         }
         #rgt-br {
             height: 100%;
@@ -372,6 +370,7 @@ i {
 
         .slidecontainer {
             width: 100%; 
+            padding-bottom: 0.3rem;
         }
         
         .slider {
@@ -387,7 +386,7 @@ i {
         }
         
         .slider:hover {
-          opacity: 1;
+            opacity: 1;
         }
         
         .slider::-webkit-slider-thumb {
@@ -401,10 +400,78 @@ i {
         }
 
 
-
-
-
     /* right bottom bar style */
+
+    /* center bottom bar style */
+
+        #center-br {
+            height: 100%;
+            width: 28rem;
+        }
+
+        #center-br i {
+            color: rgb(128,128,128);
+            font-size: 1.5rem;
+            margin: 0 0.5rem;
+            
+        }
+
+
+        #center-br div{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .slidecontainer2 {
+            width: 100%; 
+            padding-top: 0rem;
+            display: flex;
+            align-self: center;
+        }
+        
+        .slider2 {
+            -webkit-appearance: none;
+            width: 20rem;
+            height: 6px;
+            border-radius: 5px;
+            background: rgb(128,128,128);
+            outline: none;
+            opacity: 0.5;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+            margin: auto;
+            
+        }
+        
+        .slider2:hover {
+            opacity: 1;
+        }
+        
+        .slider2::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        #center-br div:last-child {
+            padding-top: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            font-size: small;
+            color: white;
+        }
+
+        #center-br div:last-child > div{
+            margin: 0;
+            padding: 0;
+        }
+
+        #center-br div:first-child {
+            justify-content: center;
+            margin: 0.5rem 0;
+        }
+
+    /* center bottom bar style */
+
 /* BOTTOM BAR */
 
 

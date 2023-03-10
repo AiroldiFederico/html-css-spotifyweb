@@ -128,16 +128,11 @@
     
 
 
-
-
-
-
-
-
-
         <!-- CORE -->
         <section id="core">
-    
+            
+
+
         </section>
     
     
@@ -171,7 +166,23 @@
 
                 <!-- CENTER -->
                 <div id="center-br">
+                    <!-- upper -->
+                    <div>
+                        <i class="fa-solid fa-shuffle"></i> 
+                        <i class="fa-solid fa-backward-step"></i>
+                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-solid fa-forward-step"></i>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
 
+                    <!-- lower -->
+                    <div>
+                        <div>00:30</div>
+                        <div class="slidecontainer2">
+                            <input type="range" min="1" max="100" value="20" class="slider2" id="myRange">
+                        </div>
+                        <div>4:35</div>
+                    </div>
                 </div>
 
                 <!-- RIGHT SIDE -->
@@ -191,25 +202,8 @@
             </div>
         </section>
 
-
-
-
-
-
-
-
-
-
     </div>
 
 </body>
-<script>
-    var slider = document.getElementById("myRange");
-    var output = document.getElementById("demo");
-    output.innerHTML = slider.value;
-    
-    slider.oninput = function() {
-      output.innerHTML = this.value;
-    }
-    </script>
+
 </html>
