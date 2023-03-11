@@ -112,7 +112,7 @@ a:hover {
 
 
     #side-navbar {
-        width: 250px;
+        width: 15.625rem;
         height: calc(100% - 9%);
         overflow: hidden;
         background-color: black;
@@ -129,7 +129,7 @@ a:hover {
     }
 
     #core {
-        width: calc(100% - 250px);
+        width: calc(100% - 15.625rem);
         height: calc(100% - 9%);
         background-color: rgb(20,25,34);
         overflow: hidden;
@@ -481,12 +481,11 @@ i:hover {color: white !important;}
         /* OVERLAY C2A */
 
         #core div:first-child {
-            width: 100%;
+            width: calc(100% - 15.625rem);
             background-color: rgba(0, 0, 0, 0.3);
-            position: sticky;
+            position: fixed;
             display: flex;
             justify-content: end;
-            z-index: 1;
         }
 
         #core div:first-child button {
@@ -496,6 +495,7 @@ i:hover {color: white !important;}
             border: solid white 0.1rem;
             color: white;
             border-radius: 2rem;
+            justify-self: right;
         }
 
 
