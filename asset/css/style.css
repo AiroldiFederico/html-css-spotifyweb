@@ -114,15 +114,16 @@ a:hover {
     #side-navbar {
         width: 250px;
         height: calc(100% - 9%);
-        /* overflow: hidden; */
+        overflow: hidden;
         background-color: black;
     }
 
     #bottom-bar {
         width: 100%;
         height: 9%;
+        min-height: 4.875rem;
 
-        /* position: static; */
+        position: static;
         background-color: rgb(28, 28, 28) ;
 
     }
@@ -131,7 +132,7 @@ a:hover {
         width: calc(100% - 250px);
         height: calc(100% - 9%);
         background-color: rgb(20,25,34);
-        /* overflow: hidden; */
+        overflow: hidden;
     }
 
 /* DEFINIZIONE BLOCCHI LAYOUT DESKTOPVIEW */
@@ -475,7 +476,39 @@ i:hover {color: white !important;}
 /* BOTTOM BAR */
 
 
+/* CORE MAIN */
 
+        /* OVERLAY C2A */
+
+        #core div:first-child {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            position: sticky;
+            display: flex;
+            justify-content: end;
+            z-index: 1;
+        }
+
+        #core div:first-child button {
+            margin: 1rem;
+            padding: 0.9rem 1.8rem;
+            background: none;
+            border: solid white 0.1rem;
+            color: white;
+            border-radius: 2rem;
+        }
+
+
+
+
+
+
+
+        /* OVERLAY C2A */
+
+
+
+/* CORE MAIN */
 
 
 

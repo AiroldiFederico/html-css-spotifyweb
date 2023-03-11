@@ -136,10 +136,10 @@
 /* ALTEZZA MINIMA *//*-----------------------------------------------*/
 @media only screen and (max-height: 800px) {
 
-    #l2-snb {
+    /* #l2-snb {
         min-height: 340px;
         overflow: auto;
-    }
+    } */
 
 
 
