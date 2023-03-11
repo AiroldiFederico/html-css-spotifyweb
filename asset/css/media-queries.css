@@ -18,6 +18,24 @@
 /* TABLET *//*-----------------------------------------------*/
 @media only screen and (max-width: 768px) {
     
+    /* BOTTOM BAR */
+
+        #center-br {
+            height: 100%;
+            width: 14rem;
+        }
+
+        .slider2 {
+            -webkit-appearance: none;
+            width: 6rem;
+            
+        }
+
+        .display-none-small-view {
+            display: none;
+        }
+
+    /* BOTTOM BAR */
 
 
 }
@@ -72,16 +90,35 @@
     /* SIDE NAVBAR */
 
 
+    .none-xxsmall-view {
+        display: none !important;
+    }
 
+    #center-br {
+        height: 100%;
+        width: 4.5;
+        margin: auto;
+    }
 
+    .slider2 {
+        -webkit-appearance: none;
+        max-width: 12rem;
+        width: auto;
+        
+    }
 
-
+    #center-br div:last-child > div {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
 }
 
 
 /* MOBILE  MEDIO*//*-----------------------------------------------*/
 @media only screen and (max-width: 375px) {
+
 
 
 
@@ -103,5 +140,7 @@
         min-height: 340px;
         overflow: auto;
     }
+
+
 
 }
