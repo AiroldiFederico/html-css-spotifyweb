@@ -478,7 +478,7 @@ i:hover {color: white !important;}
 
 /* CORE MAIN */
 
-        /* OVERLAY C2A */
+    /* OVERLAY C2A */
 
         #core div:first-child {
             width: calc(100% - 15.625rem);
@@ -498,15 +498,30 @@ i:hover {color: white !important;}
             justify-self: right;
         }
 
+    /* OVERLAY C2A */
 
 
+    /* LIST PAGE*/
 
+    #core div:nth-child(2) {
+        margin-top: 5rem;
+        text-align: center;
+        padding: 1rem;
+    }
 
+    #core div:nth-child(2) ul{
+        display: flex;
+        justify-content: center;
+        width: calc(60%);
+        margin: auto;
+        flex-wrap: wrap;
+    }
 
+    #core div:nth-child(2) ul li{
+        margin: 0 0.5rem;
+    }
 
-        /* OVERLAY C2A */
-
-
+    /* LIST PAGE*/
 
 /* CORE MAIN */
 

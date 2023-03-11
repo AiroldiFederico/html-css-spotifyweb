@@ -3,9 +3,19 @@
 
 
 /* LAPTOP *//*-----------------------------------------------*/
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     
 
+
+
+
+    /*LIST PAGES*/
+
+        #core div:nth-child(2) ul{
+            width: calc(100%);
+        }
+
+    /*LIST PAGES*
 
 }
 
@@ -36,6 +46,7 @@
         }
 
     /* BOTTOM BAR */
+
 
 
 }
@@ -123,6 +134,8 @@
         }
 
     /* OVERLAY C2A */
+
+
 
 }
 
