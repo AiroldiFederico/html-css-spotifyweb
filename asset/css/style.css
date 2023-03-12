@@ -132,7 +132,7 @@ a:hover {
         width: calc(100% - 15.625rem);
         height: calc(100% - 9%);
         background-color: rgb(20,25,34);
-        overflow: hidden;
+        overflow:scroll;
     }
 
 /* DEFINIZIONE BLOCCHI LAYOUT DESKTOPVIEW */

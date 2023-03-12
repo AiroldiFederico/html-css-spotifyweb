@@ -56,6 +56,65 @@
 /* TABLET *//*-----------------------------------------------*/
 @media only screen and (max-width: 768px) {
     
+    /* SIDE NAVBAR */
+
+        #side-navbar .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+        }
+
+
+        #snav-top div:first-child #logo-small {
+            display: block;
+            width: 2.5rem;
+            margin-right: 0px;
+        }
+
+        #snav-top div:first-child img,
+        #side-navbar ul li a span,
+        #playlist-snb,
+        hr,
+        #snav-bottom span {display: none;}
+
+
+        #snav-top div:first-child #logo-small,
+        #l1-snb img,
+        #snav-bottom div:first-child img,
+        #snav-bottom div:last-child img {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        #side-navbar {
+            width: 3.75rem;
+        }
+        
+        #core {
+            width: calc(100% - 3.75rem);
+        }
+
+    /* SIDE NAVBAR */ 
+    
+    
+    /* OVERLAY C2A */
+
+        #core #child1 {
+            width: calc(100% - 3.75rem);
+        }
+
+    /* OVERLAY C2A */
+    
+    
+    
+    
+    
+    
+    
+    
+    
     /* BOTTOM BAR */
 
         #center-br {
@@ -95,47 +154,7 @@
 @media only screen and (max-width: 425px) {
 
 
-    /* SIDE NAVBAR */
 
-        #side-navbar .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.5rem;
-        }
-
-    
-        #snav-top div:first-child #logo-small {
-            display: block;
-            width: 2.5rem;
-            margin-right: 0px;
-        }
-
-        #snav-top div:first-child img,
-        #side-navbar ul li a span,
-        #playlist-snb,
-        hr,
-        #snav-bottom span {display: none;}
-
-
-        #snav-top div:first-child #logo-small,
-        #l1-snb img,
-        #snav-bottom div:first-child img,
-        #snav-bottom div:last-child img {
-            margin-left: 0;
-            margin-right: 0;
-        }
-
-        #side-navbar {
-            width: 3.75rem;
-        }
-        
-        #core {
-            width: calc(100% - 3.75rem);
-        }
-
-    /* SIDE NAVBAR */
 
     /* BOTTOM BAR*/  
 
@@ -164,14 +183,17 @@
 
     /* BOTTOM BAR*/ 
 
-    /* OVERLAY C2A */
 
-        #core #child1 {
-            width: calc(100% - 3.75rem);
+    /* PLAYLIST CORE*/
+
+        #core #child3 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94%);
         }
 
-    /* OVERLAY C2A */
 
+    /* PLAYLIST CORE*/
 
 
 }
