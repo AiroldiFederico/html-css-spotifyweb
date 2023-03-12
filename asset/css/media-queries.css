@@ -2,6 +2,31 @@
 /* RESPONSIVE *//*-----------------------------------------------*/
 
 
+/* LAPTOP LARGE*//*-----------------------------------------------*/
+@media only screen and (max-width: 1300px) {
+
+    /* PLAYLIST CORE*/
+
+        #core #child3 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94% / 3);
+        }
+
+
+    /* PLAYLIST CORE*/
+
+
+
+
+
+
+
+}
+
+
+
+
 /* LAPTOP *//*-----------------------------------------------*/
 @media only screen and (max-width: 1024px) {
     
@@ -11,11 +36,14 @@
 
     /*LIST PAGES*/
 
-        #core div:nth-child(2) ul{
+        #core #child2 ul{
             width: calc(100%);
         }
 
-    /*LIST PAGES*
+    /*LIST PAGES*/
+
+
+
 
 }
 
@@ -47,7 +75,16 @@
 
     /* BOTTOM BAR */
 
+    /* PLAYLIST CORE*/
 
+        #core #child3 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94% / 2);
+        }
+
+
+    /* PLAYLIST CORE*/
 
 }
 
@@ -129,7 +166,7 @@
 
     /* OVERLAY C2A */
 
-        #core div:first-child {
+        #core #child1 {
             width: calc(100% - 3.75rem);
         }
 
@@ -165,12 +202,11 @@
         overflow: auto;
     } */
 
-
-
 }
 
 @media screen and (max-height: 300px) {
-	#core div:nth-child(2) ul {
+
+	#core #child2 ul {
 		margin-top: 40px;
 	}
 }

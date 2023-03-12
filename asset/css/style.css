@@ -480,7 +480,7 @@ i:hover {color: white !important;}
 
     /* OVERLAY C2A */
 
-        #core div:first-child {
+        #core #child1 {
             width: calc(100% - 15.625rem);
             background-color: rgba(0, 0, 0, 0.3);
             position: fixed;
@@ -488,7 +488,7 @@ i:hover {color: white !important;}
             justify-content: end;
         }
 
-        #core div:first-child button {
+        #core #child1 button {
             margin: 1rem;
             padding: 0.9rem 1.8rem;
             background: none;
@@ -574,29 +574,38 @@ i:hover {color: white !important;}
 
     #core #child3 div{
         display: flex;
+        flex-direction: row;
         margin-top: 1rem;
         justify-content: space-between;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
     }
 
     #core #child3 div .card-playlist{
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
-        max-width: 14rem;
+        /* max-width: 14rem; */
         background: none;
-        position: inherit;
+        /* position: inherit; */
+        flex-basis: calc(94% / 6);
     }
 
     #core #child3 div .card-playlist div{
         align-self: center;
         margin: auto;
         padding-top: 0.5rem;
+        text-align: center;
+        font-size: 0.8rem;
         color: rgb(128,128,128);
     }
 
     #core #child3 div .card-playlist h3{
         color: white;
         text-align: center;
+    }
+
+    #core #child3 div .card-playlist img{
+        width: 100%;
+        display: block;
     }
 
 
