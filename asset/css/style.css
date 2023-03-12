@@ -459,6 +459,9 @@ i:hover {color: white !important;}
         #center-br {
             height: 100%;
             width: 28rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
         }
 
         #center-br i {
@@ -665,7 +668,7 @@ i:hover {color: white !important;}
     /* PLAYLIST 2 */
 
         #core #child4 {
-            margin-top: 1.5rem;
+            margin-top: 3rem;
             margin-left: 1.5rem;
             margin-right: 1.5rem;
             max-width: calc(100% - 0rem);
@@ -718,7 +721,62 @@ i:hover {color: white !important;}
     /* PLAYLIST 2 */
 
 
+    /* PLAYLIST 3 */
 
+        #core #child5 {
+            margin-top: 3rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            max-width: calc(100% - 0rem);
+        }
+
+        #core #child5 h2{
+            color: white;
+            font-weight: bolder;
+            font-size: 2rem;
+        }
+
+        #core #child5 h3{
+            font-weight: bolder;
+            color: rgb(128,128,128);
+            margin-top: 0.5rem;
+        }
+
+        #core #child5 div{
+            display: flex;
+            flex-direction: row;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        #core #child5 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94% / 6);
+        }
+
+        #core #child5 div .card-playlist div{
+            align-self: center;
+            margin: auto;
+            text-align: center;
+            font-size: 1.2rem;
+            color: rgb(128,128,128);
+        }
+
+        #core #child5 div .card-playlist h3{
+            color: white;
+            text-align: center;
+        }
+
+        #core #child5 div .card-playlist img{
+            width: 100%;
+            display: block;
+            aspect-ratio: 1;
+            border-radius: 50%;
+        }
+
+    /* PLAYLIST 3 */
 
 
 /* CORE MAIN */

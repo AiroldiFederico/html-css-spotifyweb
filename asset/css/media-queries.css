@@ -13,6 +13,17 @@
             flex-basis: calc(94% / 3);
         }
 
+        #core #child4 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94% / 3);
+        }
+        #core #child5 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94% / 3);
+        }
+
 
     /* PLAYLIST CORE*/
 
@@ -108,13 +119,6 @@
     /* OVERLAY C2A */
     
     
-    
-    
-    
-    
-    
-    
-    
     /* BOTTOM BAR */
 
         #center-br {
@@ -137,6 +141,18 @@
     /* PLAYLIST CORE*/
 
         #core #child3 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94% / 2);
+        }
+
+        #core #child4 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94% / 2);
+        }
+
+        #core #child5 div .card-playlist{
             flex-direction: column;
             background: none;
             flex-basis: calc(94% / 2);
@@ -187,6 +203,18 @@
     /* PLAYLIST CORE*/
 
         #core #child3 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94%);
+        }
+
+        #core #child4 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94%);
+        }
+
+        #core #child5 div .card-playlist{
             flex-direction: column;
             background: none;
             flex-basis: calc(94%);
