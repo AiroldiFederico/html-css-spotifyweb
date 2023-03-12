@@ -501,59 +501,111 @@ i:hover {color: white !important;}
     /* OVERLAY C2A */
 
 
-    /* LIST PAGE*/
+    /* LIST PAGE */
 
-    #core div:nth-child(2) {
-        margin-top: 5rem;
-        text-align: center;
-        padding: 1rem;
-    }
+        #core div:nth-child(2) {
+            margin-top: 5rem;
+            text-align: center;
+            
+        }
 
-    #core div:nth-child(2) ul{
-        display: flex;
-        justify-content: center;
-        width: calc(60%);
-        margin: auto;
-        flex-wrap: wrap;
-    }
+        #core div:nth-child(2) ul{
+            display: flex;
+            justify-content: center;
+            width: calc(70%);
+            margin: auto;
+            flex-wrap: wrap;
+            padding-top: 1rem;
+        }
 
-    #core div:nth-child(2) ul li{
-        /* margin: 0 0.5rem; */
-    }
 
-    #core div:nth-child(2) ul li a{
-        color: #fff;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 0.15em;
+        #core div:nth-child(2) ul li a{
+            color: rgb(128,128,128);
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 0.1em;
+            
+            display: inline-block;
+            padding: 10px 10px;
+            position: relative;
+        }
+
+        #core div:nth-child(2) ul li a::after{
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: #00fe48;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+
+        #core div:nth-child(2) ul li a:focus:after { 
+            width: 100%; 
+            left: 0; 
+        }
+
+        #core div:nth-child(2) ul li a:focus { 
+            color: white; 
+        }
+
+
+
+
+    /* LIST PAGE */
+
+    /* PLAYLIST */
+
+    #core div:nth-child(3) {
+        margin-left: 1.5rem;
         
-        display: inline-block;
-        padding: 15px 20px;
-        position: relative;
     }
 
-    #core div:nth-child(2) ul li a::after{
-        background: none repeat scroll 0 0 transparent;
-        bottom: 0;
-        content: "";
-        display: block;
-        height: 2px;
-        left: 50%;
-        position: absolute;
-        background: #00fe48;
-        transition: width 0.3s ease 0s, left 0.3s ease 0s;
-        width: 0;
+    #core div:nth-child(3) h2{
+        color: white;
+        font-weight: bolder;
+        font-size: 2rem;
     }
 
-    #core div:nth-child(2) ul li a:focus:after { 
-        width: 100%; 
-        left: 0; 
+    #core div:nth-child(3) div{
+        display: flex;
+        margin-top: 1rem;
+        width: ;
+    }
+
+    #core div:nth-child(3) div .card-playlist{
+        display: flex;
+        flex-direction: column;
+        max-width: 14rem;
+        background: none;
+    }
+
+    #core div:nth-child(3) div .card-playlist div{
+        align-self: center;
+        margin: auto;
+        padding-top: 0.5rem;
+        color: rgb(128,128,128);
+    }
+
+    #core div:nth-child(3) div .card-playlist h3{
+        color: white;
     }
 
 
+    /* PLAYLIST */
 
 
-    /* LIST PAGE*/
+
+
+
+
+
+
+
+
 
 /* CORE MAIN */
 
