@@ -104,14 +104,14 @@ a:hover {
 
 
     .webb-app-container {
-        height: 100vh;
+        height: 100vh !important;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
 
 
-    #side-navbar {
+    /* #side-navbar {
         width: 15.625rem;
         height: calc(100% - 9%);
         overflow: hidden;
@@ -131,6 +131,36 @@ a:hover {
     #core {
         width: calc(100% - 15.625rem);
         height: calc(100% - 9%);
+        background-color: rgb(20,25,34);
+        overflow:scroll;
+    } */
+
+
+    /* POSITION OVERFLOW FIXED TEST */
+
+    main {
+        height: calc(100% - 9%); 
+        width: 100%;
+        overflow:hidden !important;
+    }
+
+    #side-navbar {
+        width: 15.625rem;
+        /* overflow:scroll; */
+        background-color: black;
+    }
+
+    #bottom-bar {
+        width: 100%;
+        height: 9%;
+        min-height: 6rem;
+        position: fixed;
+        bottom: 0;
+        background-color: rgb(28, 28, 28) ;
+    }
+
+    #core {
+        width: calc(100% - 15.625rem);
         background-color: rgb(20,25,34);
         overflow:scroll;
     }

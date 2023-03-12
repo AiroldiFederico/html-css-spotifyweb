@@ -217,12 +217,20 @@
 
 
 /* ALTEZZA MINIMA *//*-----------------------------------------------*/
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 900px) {
 
-    /* #l2-snb {
-        min-height: 340px;
+    #l2-snb div{
+        max-height: 10rem;
         overflow: auto;
-    } */
+    }
+
+    #side-navbar {
+        overflow: auto;
+    }
+
+    #snav-bottom {
+        margin-bottom: 1rem;
+    }
 
 }
 
@@ -231,4 +239,6 @@
 	#core #child2 ul {
 		margin-top: 40px;
 	}
+
+
 }
