@@ -503,13 +503,13 @@ i:hover {color: white !important;}
 
     /* LIST PAGE */
 
-        #core div:nth-child(2) {
+        #core #child2 {
             margin-top: 5rem;
             text-align: center;
             
         }
 
-        #core div:nth-child(2) ul{
+        #core #child2 ul{
             display: flex;
             justify-content: center;
             width: calc(70%);
@@ -519,7 +519,7 @@ i:hover {color: white !important;}
         }
 
 
-        #core div:nth-child(2) ul li a{
+        #core #child2 ul li a{
             color: rgb(128,128,128);
             text-transform: uppercase;
             text-decoration: none;
@@ -530,7 +530,7 @@ i:hover {color: white !important;}
             position: relative;
         }
 
-        #core div:nth-child(2) ul li a::after{
+        #core #child2 ul li a::after{
             background: none repeat scroll 0 0 transparent;
             bottom: 0;
             content: "";
@@ -543,12 +543,12 @@ i:hover {color: white !important;}
             width: 0;
         }
 
-        #core div:nth-child(2) ul li a:focus:after { 
+        #core #child2 ul li a:focus:after { 
             width: 100%; 
             left: 0; 
         }
 
-        #core div:nth-child(2) ul li a:focus { 
+        #core #child2 ul li a:focus { 
             color: white; 
         }
 
@@ -559,39 +559,44 @@ i:hover {color: white !important;}
 
     /* PLAYLIST */
 
-    #core div:nth-child(3) {
+    #core #child3 {
         margin-left: 1.5rem;
-        
+        margin-right: 1.5rem;
+        max-width: calc(100% - 0rem);
     }
 
-    #core div:nth-child(3) h2{
+    #core #child3 h2{
         color: white;
         font-weight: bolder;
         font-size: 2rem;
+
     }
 
-    #core div:nth-child(3) div{
+    #core #child3 div{
         display: flex;
         margin-top: 1rem;
-        width: ;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
     }
 
-    #core div:nth-child(3) div .card-playlist{
+    #core #child3 div .card-playlist{
         display: flex;
         flex-direction: column;
         max-width: 14rem;
         background: none;
+        position: inherit;
     }
 
-    #core div:nth-child(3) div .card-playlist div{
+    #core #child3 div .card-playlist div{
         align-self: center;
         margin: auto;
         padding-top: 0.5rem;
         color: rgb(128,128,128);
     }
 
-    #core div:nth-child(3) div .card-playlist h3{
+    #core #child3 div .card-playlist h3{
         color: white;
+        text-align: center;
     }
 
 
