@@ -162,6 +162,7 @@ a:hover {
         height: calc(100% - 9%); 
         width: 100%;
         overflow:hidden !important;
+        background-color: rgb(20,25,34);
     }
 
     #side-navbar {
@@ -609,63 +610,112 @@ i:hover {color: white !important;}
 
     /* PLAYLIST */
 
-    #core #child3 {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-        max-width: calc(100% - 0rem);
-    }
+        #core #child3 {
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            max-width: calc(100% - 0rem);
+        }
 
-    #core #child3 h2{
-        color: white;
-        font-weight: bolder;
-        font-size: 2rem;
+        #core #child3 h2{
+            color: white;
+            font-weight: bolder;
+            font-size: 2rem;
 
-    }
+        }
 
-    #core #child3 div{
-        display: flex;
-        flex-direction: row;
-        margin-top: 1rem;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
+        #core #child3 div{
+            display: flex;
+            flex-direction: row;
+            margin-top: 1rem;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
 
-    #core #child3 div .card-playlist{
-        /* display: flex; */
-        flex-direction: column;
-        /* max-width: 14rem; */
-        background: none;
-        /* position: inherit; */
-        flex-basis: calc(94% / 6);
-    }
+        #core #child3 div .card-playlist{
+            /* display: flex; */
+            flex-direction: column;
+            /* max-width: 14rem; */
+            background: none;
+            /* position: inherit; */
+            flex-basis: calc(94% / 6);
+        }
 
-    #core #child3 div .card-playlist div{
-        align-self: center;
-        margin: auto;
-        padding-top: 0.5rem;
-        text-align: center;
-        font-size: 0.8rem;
-        color: rgb(128,128,128);
-    }
+        #core #child3 div .card-playlist div{
+            align-self: center;
+            margin: auto;
+            text-align: center;
+            font-size: 1.2rem;
+            color: rgb(128,128,128);
+        }
 
-    #core #child3 div .card-playlist h3{
-        color: white;
-        text-align: center;
-    }
+        #core #child3 div .card-playlist h3{
+            color: white;
+            text-align: center;
+        }
 
-    #core #child3 div .card-playlist img{
-        width: 100%;
-        display: block;
-    }
+        #core #child3 div .card-playlist img{
+            width: 100%;
+            display: block;
+        }
 
 
     /* PLAYLIST */
 
 
+    /* PLAYLIST 2 */
 
+        #core #child4 {
+            margin-top: 1.5rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            max-width: calc(100% - 0rem);
+        }
 
+        #core #child4 h2{
+            color: white;
+            font-weight: bolder;
+            font-size: 2rem;
+        }
 
+        #core #child4 h3{
+            font-weight: bolder;
+            color: rgb(128,128,128);
+            margin-top: 0.5rem;
+        }
 
+        #core #child4 div{
+            display: flex;
+            flex-direction: row;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        #core #child4 div .card-playlist{
+            flex-direction: column;
+            background: none;
+            flex-basis: calc(94% / 6);
+        }
+
+        #core #child4 div .card-playlist div{
+            align-self: center;
+            margin: auto;
+            text-align: center;
+            font-size: 1.2rem;
+            color: rgb(128,128,128);
+        }
+
+        #core #child4 div .card-playlist h3{
+            color: white;
+            text-align: center;
+        }
+
+        #core #child4 div .card-playlist img{
+            width: 100%;
+            display: block;
+        }
+
+    /* PLAYLIST 2 */
 
 
 
