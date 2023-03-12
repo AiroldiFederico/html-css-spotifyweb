@@ -184,6 +184,8 @@ a:hover {
         width: calc(100% - 15.625rem);
         background-color: rgb(20,25,34);
         overflow:scroll;
+        padding-bottom: 4rem;
+        margin-bottom: -2rem;
     }
 
 /* DEFINIZIONE BLOCCHI LAYOUT DESKTOPVIEW */
@@ -402,7 +404,9 @@ i:hover {color: white !important;}
             display: block;
         }
 
-
+        .hover-underline:hover {
+            text-decoration: underline;
+        }
     /* left bottom bar style */
 
 
