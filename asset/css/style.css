@@ -536,10 +536,11 @@ i:hover {color: white !important;}
 
         #core #child1 {
             width: calc(100% - 15.625rem);
-            background-color: rgba(0, 0, 0, 0.3);
+            background-color: rgba(0, 0, 0, 0.503);
             position: fixed;
             display: flex;
             justify-content: end;
+            z-index: 9999;
         }
 
         #core #child1 button {
@@ -550,7 +551,19 @@ i:hover {color: white !important;}
             color: white;
             border-radius: 2rem;
             justify-self: right;
+            z-index: 999;
         }
+
+        #core #child1 button:hover {
+            animation-name: Enlarge;
+            animation-duration: 2s;
+        }
+
+        @keyframes Enlarge {
+            from {transform: scale(1);}
+            to {transform: scale(1.1);}
+        }
+        
 
     /* OVERLAY C2A */
 
@@ -661,6 +674,26 @@ i:hover {color: white !important;}
             display: block;
         }
 
+        #core #child3 div .card-playlist .img-container{
+            position: relative;
+        }
+
+        #core #child3 div .card-playlist .img-container i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            font-size: 4rem;
+            color: white;
+        }
+
+        #core #child3 div .card-playlist:hover .img-container i{
+            display: block;
+        }
+        #core #child3 div .card-playlist:hover img{
+            filter: brightness(0.3);
+        }
 
     /* PLAYLIST */
 
@@ -717,6 +750,28 @@ i:hover {color: white !important;}
             width: 100%;
             display: block;
         }
+
+        #core #child4 div .card-playlist .img-container{
+            position: relative;
+        }
+
+        #core #child4 div .card-playlist .img-container i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            font-size: 4rem;
+            color: white;
+        }
+
+        #core #child4 div .card-playlist:hover .img-container i{
+            display: block;
+        }
+        #core #child4 div .card-playlist:hover img{
+            filter: brightness(0.3);
+        }
+        
 
     /* PLAYLIST 2 */
 
@@ -775,6 +830,28 @@ i:hover {color: white !important;}
             aspect-ratio: 1;
             border-radius: 50%;
         }
+
+        #core #child5 div .card-playlist .img-container{
+            position: relative;
+        }
+
+        #core #child5 div .card-playlist .img-container i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            font-size: 4rem;
+            color: white;
+        }
+
+        #core #child5 div .card-playlist:hover .img-container i{
+            display: block;
+        }
+        #core #child5 div .card-playlist:hover img{
+            filter: brightness(0.3);
+        }
+        
 
     /* PLAYLIST 3 */
 
