@@ -130,34 +130,6 @@ a:hover {
         flex-wrap: wrap;
     }
 
-
-    /* #side-navbar {
-        width: 15.625rem;
-        height: calc(100% - 9%);
-        overflow: hidden;
-        background-color: black;
-    }
-
-    #bottom-bar {
-        width: 100%;
-        height: 9%;
-        min-height: 4.875rem;
-
-        position: static;
-        background-color: rgb(28, 28, 28) ;
-
-    }
-
-    #core {
-        width: calc(100% - 15.625rem);
-        height: calc(100% - 9%);
-        background-color: rgb(20,25,34);
-        overflow:scroll;
-    } */
-
-
-    /* POSITION OVERFLOW FIXED TEST */
-
     main {
         height: calc(100% - 9%); 
         width: 100%;
@@ -178,6 +150,7 @@ a:hover {
         position: fixed;
         bottom: 0;
         background-color: rgb(28, 28, 28) ;
+        z-index: 99999;
     }
 
     #core {
@@ -207,6 +180,7 @@ i:hover {color: white !important;}
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
+    padding-left: 0;
     height: 100%;
     color: rgb(255, 255, 255);
 }
@@ -221,6 +195,7 @@ i:hover {color: white !important;}
             display: flex;
             flex-direction: column;
             position: relative;
+            
         }
         
         #side-navbar ul li a{
@@ -232,7 +207,12 @@ i:hover {color: white !important;}
         #side-navbar li a:hover{
             opacity: 1;
             color: white;
-            border-left: solid green;
+            border-left: solid 0.2rem green;
+        }
+
+        #side-navbar ul li a{
+            padding-left: 1rem;
+            padding-right: 1rem;
         }
 
 
@@ -243,6 +223,8 @@ i:hover {color: white !important;}
         #snav-top div:first-child img {
             width: 9rem;
             margin-bottom: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
         }
 
         #logo-small {
@@ -271,6 +253,8 @@ i:hover {color: white !important;}
         #snav-top h3 {
             color: white;
             margin-bottom: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
         }
 
         #l2-snb i {
@@ -293,6 +277,8 @@ i:hover {color: white !important;}
     #snav-bottom hr {
         border-color: rgb(116,118,124);
         margin-top: 0.4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
 
     }
 
@@ -300,6 +286,8 @@ i:hover {color: white !important;}
         display: flex;
         align-items: center;
         margin-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     #snav-bottom div:first-child {
@@ -307,6 +295,8 @@ i:hover {color: white !important;}
         align-items: center;
         font-size: 0.8rem;
         opacity: 0.3;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     #snav-bottom div:first-child:hover {
