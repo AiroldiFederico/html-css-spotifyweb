@@ -649,20 +649,17 @@ i:hover {color: white !important;}
 
         }
 
-        #core #child3 div{
+        #core #child3 > div{
             display: flex;
             flex-direction: row;
-            margin-top: 1rem;
+            margin-top: 1.5rem;
             justify-content: space-between;
             flex-wrap: wrap;
         }
 
         #core #child3 div .card-playlist{
-            /* display: flex; */
             flex-direction: column;
-            /* max-width: 14rem; */
             background: none;
-            /* position: inherit; */
             flex-basis: calc(94% / 6);
         }
 
@@ -677,11 +674,13 @@ i:hover {color: white !important;}
         #core #child3 div .card-playlist h3{
             color: white;
             text-align: center;
+            margin: 1rem 0;
         }
 
         #core #child3 div .card-playlist img{
             width: 100%;
             display: block;
+            margin-top: 1rem;
         }
 
         #core #child3 div .card-playlist .img-container{
